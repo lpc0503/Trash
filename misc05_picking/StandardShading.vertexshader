@@ -3,7 +3,8 @@
 // Input vertex data, different for all executions of this shader.
 layout(location = 0) in vec4 vertexPosition_modelspace;
 layout(location = 1) in vec4 vertexColor;
-layout(location = 2) in vec3 vertexNormal;	// TL
+layout(location = 2) in vec3 vertexNormal;
+layout(location = 3) in vec2 vertexUV;
 
 // Output data; will be interpolated for each fragment.
 out vec4 vs_vertexColor;
@@ -11,7 +12,7 @@ out vec3 Position_worldspace;
 out vec3 Normal_cameraspace;
 out vec3 EyeDirection_cameraspace;
 out vec3 LightDirection_cameraspace;
-
+out vec2 UV;
 
 // Values that stay constant for the whole mesh.
 uniform mat4 M;
@@ -41,5 +42,7 @@ void main() {
 	
 	// UV of the vertex. No special space for this one.
 	vs_vertexColor = vertexColor;
+
+	UV = vertexUV;
 }
 

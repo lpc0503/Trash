@@ -34,6 +34,8 @@ typedef struct Vertex {
 	float Position[4];
 	float Color[4];
 	float Normal[3];
+    float UV[2];
+
 	void SetPosition(float* coords) {
 		Position[0] = coords[0];
 		Position[1] = coords[1];
@@ -51,6 +53,10 @@ typedef struct Vertex {
 		Normal[1] = coords[1];
 		Normal[2] = coords[2];
 	}
+    void SetUV(float* uv) {
+        UV[0] = uv[0];
+        UV[1] = uv[1];
+    }
 };
 
 // function prototypes
@@ -99,8 +105,8 @@ bool moveCameraDown = false;
 bool startReset = false;
 bool isUpper = false;
 bool showWireframe = false;
-bool showTexture = false;
-bool showHighPoly = false;
+bool showTexture = true;
+bool showHighPoly = true;
 
 GLfloat cameraAngleT = M_PI / 4;
 GLfloat cameraAngleP = asin(1 / (sqrt(3)));
@@ -131,6 +137,7 @@ GLuint PickingMatrixID;
 GLuint pickingColorID;
 GLuint LightID;
 GLuint textureID;
+GLuint UseTexID;
 
 // Declare global objects
 // TL
@@ -206,13 +213,15 @@ void initOpenGL(void) {
 	// Create and compile our GLSL program from the shaders
 	programID = LoadShaders("StandardShading.vertexshader", "StandardShading.fragmentshader");
 	pickingProgramID = LoadShaders("Picking.vertexshader", "Picking.fragmentshader");
-	textureProgramID = LoadShaders("Texture.vertexshader", "Texture.fragmentshader");
+	//textureProgramID = LoadShaders("Texture.vertexshader", "Texture.fragmentshader");
 
 	// Get a handle for our "MVP" uniform
 	MatrixID = glGetUniformLocation(programID, "MVP");
 	ModelMatrixID = glGetUniformLocation(programID, "M");
 	ViewMatrixID = glGetUniformLocation(programID, "V");
 	ProjMatrixID = glGetUniformLocation(programID, "P");
+    textureID = glGetUniformLocation(programID, "tex");
+    UseTexID = glGetUniformLocation(programID, "uUseTex");
 
 	PickingMatrixID = glGetUniformLocation(pickingProgramID, "MVP");
 
@@ -247,6 +256,7 @@ void createVAOs(Vertex Vertices[], unsigned short Indices[], int ObjectId) {
 	const size_t VertexSize = sizeof(Vertices[0]);
 	const size_t RgbOffset = sizeof(Vertices[0].Position);
 	const size_t Normaloffset = sizeof(Vertices[0].Color) + RgbOffset;
+    const size_t UVOffset = sizeof(Vertices[0].Normal) + Normaloffset;
 
 	// Create Vertex Array Object
 	glGenVertexArrays(1, &VertexArrayId[ObjectId]);
@@ -267,11 +277,13 @@ void createVAOs(Vertex Vertices[], unsigned short Indices[], int ObjectId) {
 	// Assign vertex attributes
 	glVertexAttribPointer(0, 4, GL_FLOAT, GL_FALSE, VertexSize, 0);
 	glVertexAttribPointer(1, 4, GL_FLOAT, GL_FALSE, VertexSize, (GLvoid*)RgbOffset);
-	glVertexAttribPointer(2, 3, GL_FLOAT, GL_FALSE, VertexSize, (GLvoid*)Normaloffset);	// TL
+	glVertexAttribPointer(2, 3, GL_FLOAT, GL_FALSE, VertexSize, (GLvoid*)Normaloffset);
+	glVertexAttribPointer(3, 2, GL_FLOAT, GL_FALSE, VertexSize, (GLvoid*)UVOffset);
 
 	glEnableVertexAttribArray(0);	// position
 	glEnableVertexAttribArray(1);	// color
 	glEnableVertexAttribArray(2);	// normal
+	glEnableVertexAttribArray(3);	// UV
 
 	// Disable our Vertex Buffer Object 
 	glBindVertexArray(0);
@@ -310,6 +322,7 @@ void loadObject(char* file, glm::vec4 color, Vertex*& out_Vertices, GLushort*& o
 		out_Vertices[i].SetPosition(&indexed_vertices[i].x);
 		out_Vertices[i].SetNormal(&indexed_normals[i].x);
 		out_Vertices[i].SetColor(&color[0]);
+        out_Vertices[i].SetUV(&indexed_uvs[i].x);
 	}
 	out_Indices = new GLushort[idxCount];
 	for (int i = 0; i < idxCount; i++) {
@@ -463,6 +476,28 @@ void renderScene(void) {
 
 	resetProgram();
 
+    glUseProgram(programID);
+    {
+        glm::vec3 lightPos = glm::vec3(4, 4, 4);
+        glm::mat4x4 ModelMatrix = glm::mat4(1.0);
+
+        glUniform3f(LightID, lightPos.x, lightPos.y, lightPos.z);
+        glUniformMatrix4fv(ViewMatrixID, 1, GL_FALSE, &gViewMatrix[0][0]);
+        glUniformMatrix4fv(ProjMatrixID, 1, GL_FALSE, &gProjectionMatrix[0][0]);
+        glUniformMatrix4fv(ModelMatrixID, 1, GL_FALSE, &ModelMatrix[0][0]);
+        glUniform1i(UseTexID, 0);
+
+        // Draw CoordAxes
+        glBindVertexArray(VertexArrayId[0]);
+        glDrawArrays(GL_LINES, 0, NumVerts[0]);
+
+        // Draw Grid
+        glBindVertexArray(VertexArrayId[1]);
+        glDrawArrays(GL_LINES, 0, NumVerts[1]);
+        glBindVertexArray(0);
+    }
+    glUseProgram(0);
+
 	glUseProgram(programID);
 	{
 		glm::vec3 lightPos = glm::vec3(4, 4, 4);
@@ -475,23 +510,20 @@ void renderScene(void) {
 		glUniformMatrix4fv(ProjMatrixID, 1, GL_FALSE, &gProjectionMatrix[0][0]);
 		glUniformMatrix4fv(ModelMatrixID, 1, GL_FALSE, &ModelMatrix[0][0]);
 
-		// Draw CoordAxes
-		glBindVertexArray(VertexArrayId[0]);	
-		glDrawArrays(GL_LINES, 0, NumVerts[0]);
-
-		// Draw Grid
-		glBindVertexArray(VertexArrayId[1]);	
-		glDrawArrays(GL_LINES, 0, NumVerts[1]);
-
 		// Draw Head
         
         if(!showHighPoly) {
-            
+            // low poly
             if (!showWireframe) {
                 if (showTexture) {
                     glActiveTexture(GL_TEXTURE0);
                     glBindTexture(GL_TEXTURE_2D, texture);
                     glUniform1i(textureID, 0);
+                    glUniform1i(UseTexID, 1);
+                }
+                else
+                {
+                    glUniform1i(UseTexID, 0);
                 }
                 glBindVertexArray(VertexArrayId[2]);
                 glBindBuffer(GL_ARRAY_BUFFER, VertexBufferId[2]);
@@ -511,6 +543,11 @@ void renderScene(void) {
                     glActiveTexture(GL_TEXTURE0);
                     glBindTexture(GL_TEXTURE_2D, texture);
                     glUniform1i(textureID, 0);
+                    glUniform1i(UseTexID, 1);
+                }
+                else
+                {
+                    glUniform1i(UseTexID, 0);
                 }
                 glBindVertexArray(VertexArrayId[3]);
                 glBindBuffer(GL_ARRAY_BUFFER, VertexBufferId[3]);
@@ -612,7 +649,7 @@ static void keyCallback(GLFWwindow* window, int key, int scancode, int action, i
                 }
 			break;
 		case GLFW_KEY_U:
-
+            showTexture = !showTexture;
 			break;
 		default:
 			break;

@@ -6,6 +6,7 @@ in vec3 Position_worldspace;
 in vec3 Normal_cameraspace;
 in vec3 EyeDirection_cameraspace;
 in vec3 LightDirection_cameraspace;
+in vec2 UV;
 
 // Ouput data
 out vec3 color;
@@ -14,10 +15,18 @@ out vec3 color;
 uniform mat4 MV;
 uniform vec3 LightPosition_worldspace;
 
-// TL
-// ATTN: Refer to https://learnopengl.com/Lighting/Colors and https://learnopengl.com/Lighting/Basic-Lighting
-// to familiarize yourself with implementing basic lighting model in OpenGL shaders
+uniform sampler2D tex;
+
+uniform bool uUseTex;
 
 void main() {
-	color = vs_vertexColor.rgb;
+    if(uUseTex)
+    {
+        color = texture(tex, UV).rgb;
+    }
+    else
+    {
+	    color = vs_vertexColor.rgb;
+        // color = vec3(UV, 0.0);
+    }
 }
