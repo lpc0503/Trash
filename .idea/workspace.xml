@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="CMakePresetLoader">{
   &quot;useNewFormat&quot;: true
 }</component>
@@ -7,7 +10,35 @@
     <option name="reloaded" value="true" />
   </component>
   <component name="CMakeRunConfigurationManager">
-    <generated />
+    <generated>
+      <config projectName="Tutorials" targetName="gamma" />
+      <config projectName="Tutorials" targetName="glfw" />
+      <config projectName="Tutorials" targetName="cursor" />
+      <config projectName="Tutorials" targetName="title" />
+      <config projectName="Tutorials" targetName="p1" />
+      <config projectName="Tutorials" targetName="wave" />
+      <config projectName="Tutorials" targetName="uninstall" />
+      <config projectName="Tutorials" targetName="iconify" />
+      <config projectName="Tutorials" targetName="boing" />
+      <config projectName="Tutorials" targetName="GLEW_1130" />
+      <config projectName="Tutorials" targetName="gears" />
+      <config projectName="Tutorials" targetName="heightmap" />
+      <config projectName="Tutorials" targetName="empty" />
+      <config projectName="Tutorials" targetName="events" />
+      <config projectName="Tutorials" targetName="windows" />
+      <config projectName="Tutorials" targetName="splitview" />
+      <config projectName="Tutorials" targetName="glfwinfo" />
+      <config projectName="Tutorials" targetName="clipboard" />
+      <config projectName="Tutorials" targetName="tearing" />
+      <config projectName="Tutorials" targetName="msaa" />
+      <config projectName="Tutorials" targetName="monitors" />
+      <config projectName="Tutorials" targetName="simple" />
+      <config projectName="Tutorials" targetName="reopen" />
+      <config projectName="Tutorials" targetName="sharing" />
+      <config projectName="Tutorials" targetName="threads" />
+      <config projectName="Tutorials" targetName="particles" />
+      <config projectName="Tutorials" targetName="joysticks" />
+    </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -15,7 +46,262 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f652a6fa-c08b-4958-b07a-618b6219ca1e" name="Default Changelist" comment="" />
+    <list default="true" id="f652a6fa-c08b-4958-b07a-618b6219ca1e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/texture.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/common/texture.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/external/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/external/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc01_math_cheatsheet/screenshots/DotProduct.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc01_math_cheatsheet/screenshots/Dot_Product.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc01_math_cheatsheet/screenshots/Right_hand_rule_cross_product.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc01_math_cheatsheet/screenshots/Right_hand_rule_cross_product.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc01_math_cheatsheet/screenshots/UnitCircle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc01_math_cheatsheet/screenshots/Unit_circle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc04_building_your_own_app/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc04_building_your_own_app/playground2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc05_picking/Head.obj" beforeDir="false" afterPath="$PROJECT_DIR$/misc05_picking/Head.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc05_picking/StandardShading.fragmentshader" beforeDir="false" afterPath="$PROJECT_DIR$/misc05_picking/StandardShading.fragmentshader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc05_picking/StandardShading.vertexshader" beforeDir="false" afterPath="$PROJECT_DIR$/misc05_picking/StandardShading.vertexshader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/misc05_picking/p1_source.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/misc05_picking/p1_source.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/SimpleFragmentShader.fragmentshader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/SimpleVertexShader.vertexshader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/playground" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/playground 2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/playground/playground.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial01_first_window/screenshots/CMake.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial01_first_window/screenshots/directories.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial01_first_window/screenshots/empty_window.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial01_first_window/screenshots/visual_2010.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial01_first_window/tutorial01.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial01_first_window/tutorial01_first_window" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial02_red_triangle/SimpleFragmentShader.fragmentshader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial02_red_triangle/SimpleVertexShader.vertexshader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial02_red_triangle/screenshots/red_triangle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial02_red_triangle/screenshots/screenCoordinates.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial02_red_triangle/screenshots/screenCoordinates.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial02_red_triangle/screenshots/triangle_no_shader.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial02_red_triangle/tutorial02.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial02_red_triangle/tutorial02_red_triangle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial03_matrices/SimpleTransform.vertexshader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial03_matrices/SingleColor.fragmentshader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial03_matrices/screenshots/2X3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial03_matrices/screenshots/M.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial03_matrices/screenshots/MV.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial03_matrices/screenshots/MVP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial03_matrices/screenshots/MatrixXVect.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial03_matrices/screenshots/camera.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial03_matrices/screenshots/final.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial03_matrices/screenshots/homogeneous.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial03_matrices/screenshots/identityExample.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial03_matrices/screenshots/model.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial03_matrices/screenshots/model_to_world.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial03_matrices/screenshots/model_to_world_to_camera.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial03_matrices/screenshots/model_to_world_to_camera_to_homogeneous.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial03_matrices/screenshots/nondeforme.blend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial03_matrices/screenshots/nondeforme.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial03_matrices/screenshots/perspective_red_triangle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial03_matrices/screenshots/projected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial03_matrices/screenshots/scalingExample.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial03_matrices/screenshots/scalingMatrix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial03_matrices/screenshots/transforms.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial03_matrices/screenshots/translationExampleDirection.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial03_matrices/screenshots/translationExamplePosition.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial03_matrices/screenshots/translationMatrix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial03_matrices/screenshots/world.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial03_matrices/tutorial03.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial03_matrices/tutorial03_matrices" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial04_colored_cube/ColorFragmentShader.fragmentshader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial04_colored_cube/TransformVertexShader.vertexshader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial04_colored_cube/box.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial04_colored_cube/screenshots/FarNear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial04_colored_cube/screenshots/NearFar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial04_colored_cube/screenshots/NearFar.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial04_colored_cube/screenshots/missing_z_buffer.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial04_colored_cube/screenshots/one_color_per_vertex.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial04_colored_cube/tutorial04.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial04_colored_cube/tutorial04_colored_cube" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial05_textured_cube/TextureFragmentShader.fragmentshader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial05_textured_cube/TransformVertexShader.vertexshader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial05_textured_cube/screenshots/TheCompressonator.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial05_textured_cube/screenshots/UVintro.blend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial05_textured_cube/screenshots/UVintro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial05_textured_cube/screenshots/UVintro.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial05_textured_cube/screenshots/aniso.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial05_textured_cube/screenshots/bilinearfiltering.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial05_textured_cube/screenshots/bilinearfiltering_zoom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial05_textured_cube/screenshots/linear.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial05_textured_cube/screenshots/nearest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial05_textured_cube/screenshots/nearfiltering.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial05_textured_cube/screenshots/nearfiltering_zoom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial05_textured_cube/screenshots/textured_cube.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial05_textured_cube/screenshots/uv_mapping_blender.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial05_textured_cube/tutorial05.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial05_textured_cube/uvtemplate.DDS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial05_textured_cube/uvtemplate.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial05_textured_cube/uvtemplate.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial06_keyboard_and_mouse/TextureFragmentShader.fragmentshader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial06_keyboard_and_mouse/TransformVertexShader.vertexshader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial06_keyboard_and_mouse/screenshots/inside_the_cube.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial06_keyboard_and_mouse/screenshots/large_fov.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial06_keyboard_and_mouse/screenshots/moveanim.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial06_keyboard_and_mouse/screenshots/ref.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial06_keyboard_and_mouse/screenshots/z_near.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial06_keyboard_and_mouse/tutorial06.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial06_keyboard_and_mouse/uvtemplate.DDS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial07_model_loading/TextureFragmentShader.fragmentshader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial07_model_loading/TransformVertexShader.vertexshader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial07_model_loading/cube.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial07_model_loading/screenshots/ModelLoading.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial07_model_loading/screenshots/ref.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial07_model_loading/tutorial07.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial07_model_loading/uvmap.DDS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial08_basic_shading/StandardShading.fragmentshader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial08_basic_shading/StandardShading.vertexshader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial08_basic_shading/cube.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial08_basic_shading/screenshots/badmooth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial08_basic_shading/screenshots/diffuseAngle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial08_basic_shading/screenshots/diffuseRed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial08_basic_shading/screenshots/diffuseWhite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial08_basic_shading/screenshots/diffuse_ambiant.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial08_basic_shading/screenshots/diffuse_ambiant_specular.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial08_basic_shading/screenshots/diffuse_only.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial08_basic_shading/screenshots/goodsmooth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial08_basic_shading/screenshots/light.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial08_basic_shading/screenshots/ref.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial08_basic_shading/screenshots/smoothandspiky.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial08_basic_shading/screenshots/specular.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial08_basic_shading/screenshots/specular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial08_basic_shading/screenshots/spiky.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial08_basic_shading/suzanne.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial08_basic_shading/tutorial08.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial08_basic_shading/uvmap.DDS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial09_vbo_indexing/StandardShading.fragmentshader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial09_vbo_indexing/StandardShading.vertexshader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial09_vbo_indexing/screenshots/indexing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial09_vbo_indexing/screenshots/indexing.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial09_vbo_indexing/screenshots/ref.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial09_vbo_indexing/suzanne.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial09_vbo_indexing/tutorial09.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial09_vbo_indexing/tutorial09_AssImp.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial09_vbo_indexing/tutorial09_several_objects.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial09_vbo_indexing/tutorial09_vbo_indexing" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial09_vbo_indexing/uvmap.DDS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial10_transparency/StandardShading.vertexshader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial10_transparency/StandardTransparentShading.fragmentshader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial10_transparency/screenshots/ref.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial10_transparency/screenshots/transparencybad.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial10_transparency/screenshots/transparencyorder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial10_transparency/screenshots/transparencyorder.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial10_transparency/suzanne.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial10_transparency/tutorial10.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial10_transparency/uvmap.DDS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial11_2d_fonts/Holstein.DDS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial11_2d_fonts/StandardShading.fragmentshader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial11_2d_fonts/StandardShading.vertexshader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial11_2d_fonts/TextVertexShader.fragmentshader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial11_2d_fonts/TextVertexShader.vertexshader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial11_2d_fonts/screenshots/clock.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial11_2d_fonts/screenshots/fontalpha.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial11_2d_fonts/suzanne.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial11_2d_fonts/tutorial11.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial11_2d_fonts/uvmap.DDS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial12_extensions/StandardShading.vertexshader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial12_extensions/StandardShading_WithSyntaxErrors.fragmentshader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial12_extensions/screenshots/breakpoint.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial12_extensions/suzanne.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial12_extensions/tutorial12.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial12_extensions/uvmap.DDS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial13_normal_mapping/NormalMapping.fragmentshader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial13_normal_mapping/NormalMapping.vertexshader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial13_normal_mapping/cylinder.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial13_normal_mapping/diffuse.DDS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial13_normal_mapping/normal.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial13_normal_mapping/screenshots/TBN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial13_normal_mapping/screenshots/colordebugging.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial13_normal_mapping/screenshots/gramshmidt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial13_normal_mapping/screenshots/gramshmidt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial13_normal_mapping/screenshots/immediatemodedebugging.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial13_normal_mapping/screenshots/normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial13_normal_mapping/screenshots/normalmapping.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial13_normal_mapping/screenshots/normalmappingwithspeculartexture.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial13_normal_mapping/screenshots/ref.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial13_normal_mapping/screenshots/specular.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial13_normal_mapping/screenshots/transposeTBN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial13_normal_mapping/specular.DDS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial13_normal_mapping/tutorial13.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial13_normal_mapping/tutorial13_normal_mapping" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial14_render_to_texture/Passthrough.vertexshader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial14_render_to_texture/StandardShadingRTT.fragmentshader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial14_render_to_texture/StandardShadingRTT.vertexshader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial14_render_to_texture/WobblyTexture.fragmentshader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial14_render_to_texture/screenshots/wavvy.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial14_render_to_texture/screenshots/wavvydepth.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial14_render_to_texture/suzanne.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial14_render_to_texture/tutorial14.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial14_render_to_texture/uvmap.DDS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial15_lightmaps/TextureFragmentShaderLOD.fragmentshader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial15_lightmaps/TransformVertexShader.vertexshader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial15_lightmaps/lightmap.DDS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial15_lightmaps/room.blend" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial15_lightmaps/room.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial15_lightmaps/screenshots/lighmappedroom.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial15_lightmaps/screenshots/positivebias.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial15_lightmaps/screenshots/ref.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial15_lightmaps/tutorial15.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial16_shadowmaps/DepthRTT.fragmentshader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial16_shadowmaps/DepthRTT.vertexshader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial16_shadowmaps/Passthrough.vertexshader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial16_shadowmaps/ShadowMapping.fragmentshader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial16_shadowmaps/ShadowMapping.vertexshader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial16_shadowmaps/ShadowMapping_SimpleVersion.fragmentshader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial16_shadowmaps/ShadowMapping_SimpleVersion.vertexshader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial16_shadowmaps/SimpleTexture.fragmentshader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial16_shadowmaps/room.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial16_shadowmaps/room_thickwalls.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial16_shadowmaps/screenshots/1rstTry.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial16_shadowmaps/screenshots/Aliasing.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial16_shadowmaps/screenshots/DepthTexture.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial16_shadowmaps/screenshots/FixedBias.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial16_shadowmaps/screenshots/NoPeterPanning.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial16_shadowmaps/screenshots/PCF_1tap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial16_shadowmaps/screenshots/PCF_stratified_4tap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial16_shadowmaps/screenshots/PeterPanning.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial16_shadowmaps/screenshots/ShadowAcne.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial16_shadowmaps/screenshots/SoftShadows.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial16_shadowmaps/screenshots/SoftShadows_Close.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial16_shadowmaps/screenshots/SoftShadows_Wide.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial16_shadowmaps/screenshots/VariableBias.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial16_shadowmaps/screenshots/ref.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial16_shadowmaps/screenshots/refsimple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial16_shadowmaps/tutorial16.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial16_shadowmaps/tutorial16_SimpleVersion.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial16_shadowmaps/tutorial16_shadowmaps_simple" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial16_shadowmaps/uvmap.DDS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial17_rotations/StandardShading.fragmentshader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial17_rotations/StandardShading.vertexshader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial17_rotations/screenshots/ref.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial17_rotations/screenshots/tuto17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial17_rotations/suzanne.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial17_rotations/tutorial17.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial17_rotations/tutorial17_rotations" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial17_rotations/uvmap.DDS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial18_billboards_and_particles/Billboard.fragmentshader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial18_billboards_and_particles/Billboard.vertexshader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial18_billboards_and_particles/ExampleBillboard.DDS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial18_billboards_and_particles/Particle.fragmentshader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial18_billboards_and_particles/Particle.vertexshader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial18_billboards_and_particles/particle.DDS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial18_billboards_and_particles/screenshots/2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial18_billboards_and_particles/screenshots/2a.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial18_billboards_and_particles/screenshots/3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial18_billboards_and_particles/screenshots/principle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial18_billboards_and_particles/screenshots/ref1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial18_billboards_and_particles/screenshots/ref2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial18_billboards_and_particles/tutorial18_billboards" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial18_billboards_and_particles/tutorial18_billboards.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial18_billboards_and_particles/tutorial18_particles" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial18_billboards_and_particles/tutorial18_particles.cpp" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +309,10 @@
   </component>
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Default" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/misc05_picking/Texture.fragmentshader" root0="SKIP_INSPECTION" />
@@ -43,15 +333,183 @@
     "RunOnceActivity.cidr.known.project.marker": "true",
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true"
+    "cidr.known.project.marker": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="CMake Application.p1">
+    <configuration name="GLEW_1130" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="GLEW_1130" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="boing" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="boing" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Tutorials" RUN_TARGET_NAME="boing">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clipboard" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="clipboard" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Tutorials" RUN_TARGET_NAME="clipboard">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cursor" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="cursor" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Tutorials" RUN_TARGET_NAME="cursor">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="empty" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="empty" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Tutorials" RUN_TARGET_NAME="empty">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="events" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="events" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Tutorials" RUN_TARGET_NAME="events">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gamma" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="gamma" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Tutorials" RUN_TARGET_NAME="gamma">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gears" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="gears" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Tutorials" RUN_TARGET_NAME="gears">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="glfw" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="glfw" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="glfwinfo" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="glfwinfo" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Tutorials" RUN_TARGET_NAME="glfwinfo">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="heightmap" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="heightmap" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Tutorials" RUN_TARGET_NAME="heightmap">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="iconify" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="iconify" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Tutorials" RUN_TARGET_NAME="iconify">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="joysticks" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="joysticks" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Tutorials" RUN_TARGET_NAME="joysticks">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="monitors" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="monitors" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Tutorials" RUN_TARGET_NAME="monitors">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="msaa" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="msaa" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Tutorials" RUN_TARGET_NAME="msaa">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="p1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$/misc05_picking" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="p1" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Tutorials" RUN_TARGET_NAME="p1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="particles" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="particles" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Tutorials" RUN_TARGET_NAME="particles">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="reopen" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="reopen" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Tutorials" RUN_TARGET_NAME="reopen">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sharing" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="sharing" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Tutorials" RUN_TARGET_NAME="sharing">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="simple" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="simple" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Tutorials" RUN_TARGET_NAME="simple">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="splitview" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="splitview" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Tutorials" RUN_TARGET_NAME="splitview">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tearing" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="tearing" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Tutorials" RUN_TARGET_NAME="tearing">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="threads" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="threads" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Tutorials" RUN_TARGET_NAME="threads">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="title" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="title" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Tutorials" RUN_TARGET_NAME="title">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="uninstall" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="uninstall" CONFIG_NAME="Default">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="wave" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="wave" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Tutorials" RUN_TARGET_NAME="wave">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="windows" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="windows" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="Tutorials" RUN_TARGET_NAME="windows">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.p1" />
+      <item itemvalue="CMake Application.GLEW_1130" />
+      <item itemvalue="CMake Application.uninstall" />
+      <item itemvalue="CMake Application.boing" />
+      <item itemvalue="CMake Application.gears" />
+      <item itemvalue="CMake Application.heightmap" />
+      <item itemvalue="CMake Application.particles" />
+      <item itemvalue="CMake Application.simple" />
+      <item itemvalue="CMake Application.splitview" />
+      <item itemvalue="CMake Application.wave" />
+      <item itemvalue="CMake Application.glfw" />
+      <item itemvalue="CMake Application.clipboard" />
+      <item itemvalue="CMake Application.cursor" />
+      <item itemvalue="CMake Application.empty" />
+      <item itemvalue="CMake Application.events" />
+      <item itemvalue="CMake Application.gamma" />
+      <item itemvalue="CMake Application.glfwinfo" />
+      <item itemvalue="CMake Application.iconify" />
+      <item itemvalue="CMake Application.joysticks" />
+      <item itemvalue="CMake Application.monitors" />
+      <item itemvalue="CMake Application.msaa" />
+      <item itemvalue="CMake Application.reopen" />
+      <item itemvalue="CMake Application.sharing" />
+      <item itemvalue="CMake Application.tearing" />
+      <item itemvalue="CMake Application.threads" />
+      <item itemvalue="CMake Application.title" />
+      <item itemvalue="CMake Application.windows" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -67,16 +525,23 @@
       <workItem from="1662475637233" duration="36000" />
       <workItem from="1667767676614" duration="17000" />
       <workItem from="1670524529592" duration="1404000" />
+      <workItem from="1670596257281" duration="55000" />
+      <workItem from="1670599036412" duration="3105000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="301" y="168" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1662475669966">
-      <screen x="0" y="25" width="1680" height="970" />
-    </state>
-    <state x="301" y="168" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1680.970@0.25.1680.970" timestamp="1662475669966" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
